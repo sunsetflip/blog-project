@@ -1,0 +1,159 @@
+body {
+    background-color: #ddbadb;
+    padding: 0px;
+    margin: 0px;
+}
+
+.header {
+    background-color: rebeccapurple;
+    border-bottom: 1px solid #ddd;
+    box-shadow: 0 0 8px rgba(0,0,0,.1);
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#heading {
+    margin: 40px 20px 20px 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.logo {
+    color: white;
+    font-size: 32px;
+    font-weight: 800;
+    font-style: italic;
+    margin-left: 20px;
+}
+
+.suspiria {
+    width: 775px;
+    height: 275px;
+    margin: 10px auto; /* top, right, bottom, left */
+}
+
+.suspiria-img {
+    width: 775px;
+    height: 275px;
+    border: 3px solid #000000;
+    border-radius: 1em;
+}
+
+.me {
+    width: 340px;
+    height: 350px;
+    margin: 10px auto;
+}
+
+.me-img {
+    width: 340px;
+    height: 350px;
+    border: 3px solid #000000;
+    border-radius: 11em;
+}
+
+.footer {
+    color: #000000;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    font-size: 14px;
+}
+
+.btn   {
+    font-size: 22px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.btn a { /* targets <a> tags that are descendents of the btn class */
+    text-decoration: none;
+    color: #AE4AD2;
+}
+
+.btn a:hover { /* targets <a> tags that are descendents of the btn class */
+    text-decoration: underline;
+    color: #000000;
+}
+
+.post-title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 25px;
+    padding-top: 10px;
+}
+
+.post-subtitle {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    padding-top: 0px;
+}
+
+#post-links {
+    list-style: none;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+#container {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #ddbadb;
+    padding: 0px 0px 10px 30px;
+    /* top, right, bottom, left - applies to both padding and margin values */
+}
+
+#landing-page {
+    padding-top: 30px;
+}
+
+#header-link-list {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 40px;
+}
+
+#header-links {
+    margin-right: 70px;
+    font-weight: bold;
+}
+
+div#header-links > ul > li > a {
+    color: white;
+    text-decoration: none;
+}
+
+#header-links li a:hover {
+    color: black;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.left, .right {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    height: 375px;
+  }
+
+.article-links {
+    margin-bottom: 15px;
+}
+
+.article-section {
+    margin-top: 40px;
+}
+
+.article-img {
+    margin: 30px 0;
+}
